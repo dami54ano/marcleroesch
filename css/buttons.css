@@ -1,0 +1,53 @@
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #5386c7;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #4275b6;
+    text-decoration: none;
+}
+
+.btn-white {
+    background: #fff;
+    color: #0e2a47;
+    padding: 10px 24px;
+    font-size: 16px;
+}
+
+.btn-white:hover {
+    background: #f0f0f0;
+    color: #0e2a47;
+}
+
+.btn-dark {
+    background: #000;
+    color: #fff;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-dark:hover {
+    background: #333;
+}
+
+.btn-large {
+    display: inline-block;
+    padding: 12px 32px;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.btn-large:hover {
+    background: #333;
+    text-decoration: none;
+}

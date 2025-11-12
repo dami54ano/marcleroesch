@@ -1,0 +1,26 @@
+/* Story Section */
+.story-blue {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #1a3a5c;
+    color: #fff;
+    padding: 80px 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.story-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.story-content p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    font-size: 18px;
+}

@@ -1,0 +1,33 @@
+/* Header & Navigation */
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.site-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    color: #666;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #333;
+}

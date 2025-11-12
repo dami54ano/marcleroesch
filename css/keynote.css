@@ -1,0 +1,67 @@
+/* Keynote Section */
+.keynote-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 15px 0 60px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: visible;
+    min-height: 420px;
+}
+
+.keynote-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center 30%;
+    z-index: 0;
+}
+
+.keynote-content {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: block;
+}
+
+.keynote-text {
+    max-width: 100%;
+}
+
+.keynote-text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.keynote-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #000;
+    max-width: 800px;
+}
+
+.keynote-references {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 25px;
+    color: #000;
+    max-width: 800px;
+}
+
+.keynote-image {
+    display: none;
+}

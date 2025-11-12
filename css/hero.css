@@ -1,0 +1,47 @@
+/* Hero Section */
+.hero {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    text-align: center;
+    padding: 20px 20px 100px 20px;
+    background-image: url('images/Marcel_Roesch_1_edited.jpg');
+    background-size: cover;
+    background-position: center -100px;
+    color: #fff;
+}
+
+.hero-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero .site-subtitle {
+    color: #000;
+    font-weight: 400;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.hero-question {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 400;
+}
+
+.hero-answer {
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}

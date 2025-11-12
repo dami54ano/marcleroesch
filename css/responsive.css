@@ -1,0 +1,192 @@
+/* Responsive Design */
+
+/* Tablets und kleinere Desktops */
+@media (max-width: 1024px) {
+    .section {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    
+    .float-img {
+        max-width: 400px;
+    }
+    
+    .product-img {
+        max-width: 250px;
+    }
+}
+
+/* Tablets im Portrait-Modus */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    /* Services Grid auf 1 Spalte */
+    .services {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Bilder nicht mehr floatend */
+    .float-img,
+    .product-img {
+        float: none;
+        margin: 20px auto;
+        display: block;
+        max-width: 100%;
+    }
+    
+    /* Hero Anpassungen */
+    .hero {
+        padding: 20px 20px 60px 20px;
+        background-position: center center;
+    }
+    
+    .hero-title {
+        font-size: 32px;
+    }
+    
+    .hero-subtitle {
+        font-size: 20px;
+    }
+    
+    .hero-question {
+        font-size: 18px;
+    }
+    
+    /* Section Headings */
+    .section-heading {
+        font-size: 28px;
+    }
+    
+    .subsection-title {
+        font-size: 20px;
+    }
+    
+    /* Value Section */
+    .value-hero {
+        padding: 80px 20px;
+        min-height: 400px;
+    }
+    
+    .value-content h3 {
+        font-size: 28px;
+    }
+    
+    .value-content p {
+        font-size: 16px;
+    }
+    
+    /* Keynote Section */
+    .keynote-section {
+        min-height: 300px;
+    }
+    
+    .keynote-bg {
+        height: 300px;
+    }
+    
+    .keynote-text h3 {
+        font-size: 28px;
+    }
+    
+    .keynote-text p {
+        font-size: 15px;
+    }
+    
+    /* Story Section */
+    .story-blue {
+        padding: 60px 20px;
+    }
+    
+    .story-content p {
+        font-size: 16px;
+    }
+    
+    /* Service Cards */
+    .service-card {
+        padding: 40px 30px;
+    }
+    
+    .service-card h3 {
+        font-size: 24px;
+    }
+    
+    /* CTA */
+    .cta {
+        padding: 60px 20px 120px 20px;
+    }
+    
+    .cta h3 {
+        font-size: 28px;
+    }
+    
+    /* Navigation */
+    .nav {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    /* Footer */
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+        text-align: left;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+    body {
+        font-size: 15px;
+    }
+    
+    .site-title {
+        font-size: 24px;
+    }
+    
+    .hero-title {
+        font-size: 26px;
+    }
+    
+    .hero-subtitle {
+        font-size: 18px;
+    }
+    
+    .section-heading {
+        font-size: 24px;
+    }
+    
+    .section {
+        margin: 40px auto;
+    }
+    
+    .service-card {
+        padding: 30px 20px;
+    }
+    
+    .service-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .btn,
+    .btn-dark,
+    .btn-large {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .value-hero {
+        padding: 60px 15px;
+    }
+    
+    .story-blue {
+        padding: 40px 15px;
+    }
+    
+    .cta {
+        padding: 40px 15px 80px 15px;
+    }
+}
